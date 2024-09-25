@@ -9,7 +9,7 @@ def merge_sort_recursivo(vetor):
       return vetor
    
    meio = len(vetor)//2
-   esquerda = merge_sort_recursivo(vetor[:meio])
+   esquerda = merge_sort_recursivo(vetor[:meio]) 
    direita = merge_sort_recursivo(vetor[meio:])
    
    return merge(esquerda, direita)
